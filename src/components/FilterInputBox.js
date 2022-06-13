@@ -3,9 +3,9 @@ function FilterInputBox(props) {
   if (props.type === 'min') {
     return (
       <input
+        style={{ width: '100px' }}
         type="number"
         placeholder={props.type}
-        size="4"
         value={props.value}
         onChange={(e) => {
           props.setFilter((prev) => {
@@ -22,9 +22,9 @@ function FilterInputBox(props) {
   } else {
     return (
       <input
+        style={{ width: '100px' }}
         type="number"
         placeholder={props.type}
-        size="4"
         value={props.value}
         onChange={(e) => {
           props.setFilter((prev) => {
