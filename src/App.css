@@ -28,6 +28,25 @@
   color: #61dafb;
 }
 
+.wallet-address {
+  margin: 10px;
+  padding: 5px;
+  align-content: center;
+  align-items: center;
+}
+
+.card-text-value {
+  align-content: center;
+  align-items: center;
+  /* color: rgb(167, 62, 228); */
+  /* color : #19D698; */
+  /* color : black; */
+  letter-spacing: -2px;
+  /* text-shadow: 1px 1px; */
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
